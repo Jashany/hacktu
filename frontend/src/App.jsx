@@ -6,6 +6,7 @@ import Quiz from './pages/quiz/quiz.jsx'
 import ParentHome from './pages/parenthome/parenthome.jsx'
 import { Login } from './pages/login/login.jsx'
 import { SignUp } from './pages/signup/signup.jsx'
+import Story from './pages/storyy/story.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/forum" element={<Forum />} />
         <Route path="/login" element={<Login />} /> 
         <Route path="/signup" element={<SignUp />} /> 
+        <Route path="/story" element={<Story />} />
       </Routes>
     </>
   )

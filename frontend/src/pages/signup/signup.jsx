@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Cookies from "js-cookie";
-import Logo from '../../assets/Logo.png';
+// import Cookies from "js-cookie";
+import Logo from '../../assets/logo.png';
 
 import "../login/login.css";
 
